@@ -1,0 +1,1 @@
+.nav-menu{display:flex;width:60%;transform:translate(40%);justify-content:space-between;background-color:white}.nav-menu .nav-menu-logo{width:35%}.nav-menu .nav-menu-menu{width:65%}.nav-menu .nav-menu-menu .ul-menu{display:flex;justify-content:space-evenly;list-style-type:none;cursor:pointer}.nav-menu .nav-menu-menu .ul-menu .li-menu:hover{color:yellow}
