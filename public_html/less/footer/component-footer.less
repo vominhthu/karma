@@ -1,0 +1,62 @@
+.footer {
+    width: 70%;
+    margin: 0 auto;
+    .footer-area {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .footer-item {
+            max-width: 30%;
+            padding: 0 15px;
+            .footer-title {
+                font-size: 1.3em;
+            }
+        }
+        .about-us {
+            flex-grow: 1;
+        }
+        .news-letter {
+            .input-newsletter {
+                outline: none;
+                padding: 10px;
+                border: none;
+            }
+            .btn-newsletter {
+                padding: 10px;
+                background-color: orange;
+                border: none;
+            }
+        }
+        .instagram-feed {
+            flex-grow: 1;
+            .instagram-feed-row {
+                display: flex;
+                flex-wrap: wrap;
+                .instagram-image {
+                    width: 40%;
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+            }
+        }
+        .follow-us {
+            .follow-us-social {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                a {
+                    color: #d7d7d7;
+                    &:hover {
+                        color:yellow;
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        text-align: center;
+        padding: 20px 0;
+    }
+}

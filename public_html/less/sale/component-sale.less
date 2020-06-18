@@ -1,0 +1,35 @@
+.sale {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    .sale-right {
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        .sale-right-row {
+            width: 100%;
+            max-height: 200px;
+            .sale-item {
+                display: inline-block;
+                width: 40%;
+                height: 250px;
+                &:first-child {
+                    flex-grow: 1;
+                }
+                .right-img {
+                    img {
+                        width: 100%;
+                        max-height: 100%;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    .sale-left {
+        .left-img {
+            width: 100%;
+        }
+    }
+}

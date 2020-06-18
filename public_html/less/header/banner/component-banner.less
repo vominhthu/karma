@@ -1,0 +1,39 @@
+.banner {
+    .banner-item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .banner-right {
+            flex: 1;
+            h2 {
+                font-size: 4em;
+                font-weight: bold;
+            }
+            p {
+                line-height: 1.5;
+            }
+            
+            .group-button {
+                .btn-header-add {
+                    outline: none;
+                    border-radius: 50%;
+                    color: white;
+                    padding: 8px 10px;
+                    background-color: orange;
+                    border:none;
+                }
+                span {
+                    margin-left: 15px;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+        .banner-left {
+            flex: 1;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

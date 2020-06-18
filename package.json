@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "next start",
     "next:build": "next build",
-    "watch:homepage": "webpack --watch --config webpack.config.homepage.js",
-    "build:homepage": "webpack --config webpack.config.homepage.js"
+    "watch:header": "webpack --watch --config webpack.config.header.js",
+    "build:header": "webpack --config webpack.config.header.js"
   },
   "author": "",
   "license": "ISC",

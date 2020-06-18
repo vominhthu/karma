@@ -1,0 +1,27 @@
+.menu-bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    .menu-bar-logo {
+        width: 35%;
+    }
+    .menu-bar-menu {
+        width: 65%;
+        .menu-bar-ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            list-style-type: none;
+            cursor: pointer;
+            .menu-bar-li {
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+    }
+}
