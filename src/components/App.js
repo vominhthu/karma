@@ -3,6 +3,7 @@ import Header from './header/Header'
 import Introduce from './introduce/Introduce'
 import Sale from './sale/Sale'
 import Footer from './footer/Footer'
+import Products from './products/Products'
 
 export default class App extends Component {
     componentDidMount() {
@@ -28,6 +29,9 @@ export default class App extends Component {
             {/* <section className="sale-container">
                 <Sale/>
             </section> */}
+            <section className="products-container">
+                <Products/>
+            </section>
             <div className="footer-container">
                 <Footer/>
             </div>
